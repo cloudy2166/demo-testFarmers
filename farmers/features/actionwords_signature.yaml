@@ -1,0 +1,130 @@
+---
+- name: Open web page with URL
+  uid: 3df17e0a-91f4-46e2-8816-2e2a4ea71ca0
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Click SIGN IN on the right top
+  uid: 0f54d501-c495-4fd2-81ad-e2eed625d17b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Verify the page for signing in is displayed
+  uid: 8e7df2d2-b41e-46a3-aa15-b0506d63cb16
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Input user name "p1"
+  uid: 751e7854-1b56-416a-9eb2-8955f36e8b44
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Input password "p1"
+  uid: 515bcec6-65d2-41ba-936b-d5f03c02ad26
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Click Sign In button
+  uid: 3aab8bf8-55c4-4445-969f-bd8754ebf6b0
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Verify my login is successful with "p1" and "p2"
+  uid: 27a12d94-e24e-4ed6-b2e6-8b6ac1eacce9
+  parameters:
+  - name: p1
+  - name: p2
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Click Log In button
+  uid: 0dda52c9-7982-4f51-a0d1-19f99ea38009
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Verify my login is failed with "p1"
+  uid: 43279ef0-1f5c-43f1-b469-8f9a209a702a
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Sign In with my user name
+  uid: 989a4e4b-3449-42f7-8626-8c0bdb229644
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Move cusor to MEN of the main menu
+  uid: 6ac89ebd-ab93-41b0-b06c-95509a93af78
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Click Jeans on the pop-up menu
+  uid: 9c3a0c35-c197-4bda-bc4e-67ef8af552aa
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Choose brand "p1"
+  uid: 4d7869d1-7052-4055-8b04-ddde41d318fb
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Verify all the jeans listed are "p1"
+  uid: 0e8dbfa8-6deb-4ea4-90dd-5dd3e840f068
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Click Jack & Jones Glenn Slim Jean, Light Blue
+  uid: cc73af5a-ba43-4fec-b344-956e3d20ab6e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: select a size
+  uid: 67250efb-f0ef-4ab7-a49e-840475a024c5
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: select quantify as "p1"
+  uid: ca262803-22f0-4bdb-885d-b7f1f3942fef
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: click button of Add to cart
+  uid: a85690e5-2978-43ae-b497-3f2a00a039aa
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Verify My Shopping successfull
+  uid: ec180ba4-c3fe-4815-aea6-2efe4a442708
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: click Continue Shopping
+  uid: b7c705fa-810d-493c-9b51-7f3de7113d5e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Verify the number displayed in right top of the cart image is "p1"
+  uid: 312b7117-a05f-4b15-8641-5097b6372b2e
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I added "p1" goods to my cart at last signing in
+  uid: 3e10ef41-969c-4de5-a3d9-375b88a1b665
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Login with my user name
+  uid: df992c58-2558-4973-9113-af21b5dab6b4
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Click the cart image
+  uid: 02340d20-8874-4c15-b8e1-5392788045d9
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Verify the quantity of goods in pop-up page is "p1"
+  uid: b86c9710-6dcf-4bef-b086-855a3da80f81
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I added "p1" goods to my cart at last login
+  uid: 1f22632b-0aad-4b10-ab81-95ad8c98e081
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Click Checkout in the pop-up page
+  uid: 966fd26b-933b-4a41-aaf4-844f4d9f5438
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Verify "p1" is displayed on the current page
+  uid: bdcc4251-c427-45f5-bf98-1d9041f4e706
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: click Remove on the current page
+  uid: a934d810-2fc4-46ff-aa4b-aa5c06824a7c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
